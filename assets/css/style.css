@@ -41,8 +41,11 @@ body{
     align-self: center
 }
 
-.nes-badge{
-    /* width: 5.5rem!important; */
+#githubLink{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 section .header-info #type{
