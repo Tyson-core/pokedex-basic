@@ -146,6 +146,7 @@ const createCard = (poke, abi, type)=>{
         divCar.remove('div')
         btnreturn.classList.add('displayNone')
         imgbody.classList.remove('displayNone')
+        inputPoke.placeholder="Pokémon / Number (1-807)"
     })
 
     
