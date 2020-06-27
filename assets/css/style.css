@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/dia.png");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.img-body{
+    width: 200px;
+}
+
+.img-card{
+    width: 200px;
+    image-rendering: pixelated;
+}
+
+.nes-container{
+    background: white!important;
+}
+
+.container .cardIMG{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.container .cardIMG .btn-previous a,
+                    .btn-next a{
+    width: 80%;
+}
+
+.container .cardIMG .btn-previous ,
+                    .btn-next {
+    width: 80%;
+    align-self: center
+}
+
+.nes-badge{
+    /* width: 5.5rem!important; */
+}
+
+section .header-info #type{
+    justify-self: right;
+}
+
+section .header-info #type a{
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFklEQVRYR9WXURLDIAhE6/0PbSdOtUpcd1Gnpv1KGpTHBpCE1/cXq+vrMph7dGvXZTtpfW10DCA5jrH1H0Jhs5E0hnZdCR+vb5S8Nn8mQCeS9BdSalYJqMBjAGzq59xAESN7VFVUgV8AZB/dZBR7QTFDCqGquvUBVVoEtgIwpQRzmANSFHgWQKExHdIrPeuMvQNDarXe6nC/AutgV3JW+6bgqQLeV8FekRtgV+ToDKEKnACYKsfZjjkam7a0ZpYTytwmgainpC3HvwBocgKOxqRjehoR9DFKNFYtOwCGYCszobeCbl26N6yyQ6g8X/Wex/rBPsNEV6qAMaJPMynIHQCoSqS9JSMmwef51LflTgCRszU7DvAGiV6mHWfsaVUAAAAASUVORK5CYII=),auto;
+}
+
+section .header-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+section .header-info #type{
+    justify-self: right;
+}
+
+.displayNone{
+    display: none;
+}
+
+
+#abilities{
+    text-transform: capitalize;
+}
+/* RESPONSIVE */
+
+@media (max-width:380px){
+    section .header-info{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media (max-width:992px){
+    .container .cardIMG{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container .cardIMG .btn-previous ,
+                    .btn-next {
+    width: 80%;
+    justify-self: center;
+    margin-bottom: 20px;
+    }
+}
+
+@media (max-width:768px){
+    .btn-return{
+        margin-bottom: 20px;
+    }
+}
