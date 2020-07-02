@@ -46,7 +46,7 @@ const getPokemon= async (pokemon)=>{
 inputPoke.addEventListener('keypress',(e)=>{
     const value = inputPoke.value
     if(e.key === 'Enter' && value.trim() !=""){
-        validatePoke(value).toLowerCase()
+        validatePoke(value.toLowerCase())
     }
 });
 
