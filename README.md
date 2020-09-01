@@ -8,7 +8,7 @@
 * [*POKEMON SPRITES*](https://pokemondb.net/sprites/ "POKEMON SPRITES")
 
 ------------
-* [*PREVIEW*](https://tyson-core.github.io/pokedex-basic/)
+* [*PREVIEW*](https://tyson-core.github.io/pokedex-basic-jsvanilla/)
 ------------
 
 
